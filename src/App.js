@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Blog from "./components/Blog";
-import Header from "./components/Header";
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
 
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Services />
       <Blog />
+      <Footer />
     </>
   );
 }
