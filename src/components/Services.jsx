@@ -6,7 +6,7 @@ function Services() {
           <h2 className="text-center text-[45px]">Services</h2>
         </b>
         <p className="text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin <br />
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin <br />
           tristique elit nec malesuada tincidunt. Pellentesque lobortis.
           </p>
           <div className="flex justify-center items-center flex-wrap ">
