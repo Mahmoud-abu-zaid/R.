@@ -3,11 +3,11 @@ function Header() {
     <>
       <header>
         <div>
-          <nav className="flex justify-between p-4 md:items-center fixed right-0 left-0 ">
-            <a className="text-2xl" href="index.html">
+          <nav className="flex justify-between p-4 md:items-center md:fixed right-0 left-0  bg-[#DEE2E6] ">
+            <a className="text-[30px]" href="index.html">
               R
             </a>
-            <ul className=" md:flex bg-[#DEE2E6] p-3">
+            <ul className=" md:flex ">
               <li>
                 <a className="pr-3" href="/">
                   Home
