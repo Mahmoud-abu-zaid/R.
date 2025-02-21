@@ -10,10 +10,10 @@ function Footer() {
             <form>
               <h3>Send me message</h3>
               <div>
-                <input type="email" name="" id="" placeholder="Email" className="m-1 bg-[#212529] rounded-md p-1" />
-                <input type="text" placeholder="Name" className="m-1 bg-[#212529] rounded-md p-1" />
+                <input type="email" name="" id="" placeholder="Email" className="m-1 bg-[#212529] rounded-md p-1 w-[48%]" />
+                <input type="text" placeholder="Name" className="m-1 bg-[#212529] rounded-md p-1 w-[47%]" />
               </div>
-              <textarea name="" id="" cols="50" rows="5" placeholder="Message" className=" m-1 bg-[#212529] rounded-md p-1"></textarea>
+              <textarea name="" id=""  placeholder="Message" className=" m-1 bg-[#212529] rounded-md p-1 w-[98%]"></textarea>
               <div className="text-end">
                 <button className="bg-white p-2 rounded-md">Send</button>
               </div>
