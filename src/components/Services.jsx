@@ -1,7 +1,8 @@
 function Services() {
   return (
     <>
-      <div className="bg-[#DEE2E6]">
+      <div className="bg-[#DEE2E6] - h-[100%] flex justify-center items-center"> 
+        <div className=" pt-[70px] pb-[70px]">
         <b>
           <h2 className="text-center text-[45px]">Services</h2>
         </b>
@@ -9,7 +10,7 @@ function Services() {
           Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin <br />
           tristique elit nec malesuada tincidunt. Pellentesque lobortis.
           </p>
-          <div className="flex justify-center items-center flex-wrap ">
+          <div className="flex justify-center items-center flex-wrap h-[100%] bg-[#DEE2E6]">
             <div className="text-center p-5 mt-4 mb-4 mr-1 text-white bg-[#212529] rounded-lg shadow-md">
               <div className="flex justify-center text-center">
               <img src="/img/icons/web-design.webp" alt=""  />
@@ -51,7 +52,7 @@ function Services() {
             </div>
             
           </div>
-        
+          </div>
       </div>
     </>
   );

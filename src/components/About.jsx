@@ -3,9 +3,9 @@ import MyButton from "./MyButton";
 function About() {
   return (
     <>
-      <div className="flex justify-center items-center flex-wrap p-[45px]">
+      <div className="flex justify-center items-center flex-wrap p-[70px] ">
         <div>
-         <b> <h2 className="text-[50px] pr-9">
+         <b> <h2 className="text-[50px] m-5 ">
             About <br /> me
           </h2>
           </b>

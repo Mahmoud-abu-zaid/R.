@@ -1,35 +1,37 @@
+import { Link ,NavLink } from "react-router-dom";
+
 function Header() {
   return (
     <>
       <header>
         <div>
           <nav className="flex justify-between p-4 md:items-center md:fixed right-0 left-0  bg-[#DEE2E6] ">
-            <a className="text-[30px]" href="index.html">
+            <Link className="text-[30px]" to="/">
               R
-            </a>
+            </Link>
             <ul className=" md:flex ">
               <li>
-                <a className="pr-3" href="/">
+                <Link className="pr-3" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="pr-3" href="/">
+                <NavLink className="pr-3" to="/About">
                   About
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a className="pr-3" href="/">
+                <NavLink className="pr-3" to="/Services">
                   Services
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a className="pr-3" href="/">
+                <NavLink className="pr-3" to="/Blog">
                   Blog
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <NavLink to="/Footer">Contact</NavLink>
               </li>
             </ul>
           </nav>
